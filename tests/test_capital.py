@@ -1,7 +1,7 @@
 # test_capitalize.py
 
-def capital_case(x):
-    return x.capitalize()
+from app.capital import capital_case
+
 
 def test_capital_case():
     assert capital_case('semaphore') == 'Semaphore'
